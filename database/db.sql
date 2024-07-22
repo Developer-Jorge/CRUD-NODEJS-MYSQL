@@ -1,0 +1,13 @@
+CREATE DATABASE CRUD;
+
+USE CRUD;
+
+show DATABASE;
+
+CREATE TABLE crud {
+    id INT PRIMARY KEY UNSIGNED NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(100) NOT NULL,
+    descripcion VARCHAR(100) NOT NULL
+};
+
+descripcion crud;
